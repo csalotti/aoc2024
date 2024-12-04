@@ -1,0 +1,6 @@
+166906472 => too high
+====================
+nmatches : 671
+parse 166905464
+nmatches : 287
+parse with conditions 72296827 ==> too low
