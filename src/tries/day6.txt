@@ -1,0 +1,1 @@
+Distinct positions : 5563 ==> too low

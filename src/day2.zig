@@ -11,6 +11,7 @@ pub fn main() !void {
     var safety_score: u32 = 0;
     var safety_dampner_score: u32 = 0;
     while (token_it.next()) |token| {
+        std.debug.print("{s}\n", .{token});
         var scalars_it = mem.splitSequence(u8, token, " ");
         report = std.ArrayList(i32).init(allocator);
         defer report.deinit();
